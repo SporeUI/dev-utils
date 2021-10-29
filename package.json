@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --coverage ./test/unit",
     "lint": "eslint ./src",
+    "prepublishOnly": "./hooks/pre-publish.sh",
     "cz": "git add . && git cz"
   },
   "publishConfig": {
@@ -26,6 +27,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6"
@@ -37,6 +39,7 @@
   },
   "files": [
     "react",
+    "hooks",
     "git"
   ],
   "homepage": "https://github.com/SporeUI/dev-utils#readme",
