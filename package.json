@@ -1,0 +1,23 @@
+{
+  "name": "@spore-ui/dev-utils",
+  "version": "0.0.0-development",
+  "description": "提供项目配置所需的基础工具函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SporeUI/dev-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SporeUI/dev-utils/issues"
+  },
+  "files": [
+    "react",
+    "git"
+  ],
+  "homepage": "https://github.com/SporeUI/dev-utils#readme",
+  "author": "pillar0514@gmail.com",
+  "license": "MIT"
+}
