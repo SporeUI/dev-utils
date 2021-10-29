@@ -16,3 +16,14 @@
 本工具库提供一些项目自动化配置所需的一些基本工具函数。
 
 部分方法来自于其他代码库，应对工程需求，进行了适应性变更。
+
+## 快速上手
+
+```shell
+npm i -D @spore-ui/dev-utils
+```
+
+```javascript
+const getGitPath = require('@spore-ui/dev-utils/git/getGitPath');
+console.info(getGitPath());
+```
