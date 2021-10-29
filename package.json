@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage ./test/unit",
-    "lint": "eslint ./src",
+    "lint": "eslint ./",
     "prepublishOnly": "./hooks/pre-publish.sh",
     "cz": "git add . && git cz"
   },
