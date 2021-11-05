@@ -2,6 +2,7 @@ const $fs = require('fs');
 
 /**
  * 获取 git 路径
+ * @return {String} git path
  * @example
  * console.info(getGitPath());
  * // SporeUI/dev-utils
